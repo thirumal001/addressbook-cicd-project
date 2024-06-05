@@ -11,7 +11,7 @@ new commit  pipeline{
         stage('Checkout on git'){
             agent any
             steps{
-                git 'https://github.com/devops-trainer/DevOpsClassCodes.git'
+                git 'https://github.com/thirumal001/addressbook-cicd-project/edit/master/JenkinsFile1'
             }
         }
         stage('Compile'){
